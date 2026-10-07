@@ -1,0 +1,5 @@
+project_id = "dropfile"
+
+[functions.download]
+verify_jwt = false
+entrypoint = "./functions/download/index.ts"
